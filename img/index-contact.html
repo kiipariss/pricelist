@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="icon" href="icon.ico" type="image/x-icon">
+    <title></title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+    <div class="header__row _conteiner">
+        <div class="header__logo"><img src="img/logo.svg" alt=""></div>
+        <div class="header__menu menu">
+            <div class="menu__icon">
+                <p>Муню</p><span></span>
+            </div>
+            <div class="menu__body">
+                <ul class="menu__list">
+                    <span class="logos"><img src="img/icon/logoDark.png" alt=""></span>
+                    <li><a class="asd" href="#"><img src="img/icon/Vector.svg" alt=""> <span>Главная</span>
+                            <a href="вё"><strong><img src="img/icon/burger1.svg" alt=""></strong></a></a></li>
+                    <li><a href="#"><span>Услуги</span>
+                            <a href="вё"><strong><img src="img/icon/burger2.svg" alt=""></strong></a></a></li>
+                    <li><a href="#"><span>Портфолио</span>
+                            <a href="вё"><strong><img src="img/icon/burger3.svg" alt=""></strong></a></a></li>
+                    <li><a href="#"><span>Прайс-лист</span>
+                            <a href="вё"><strong><img src="img/icon/burger4.svg" alt=""></strong></a></a></li>
+                    <li><a href="#"><span>Контакты</span>
+                            <a href="вё"><strong><img src="img/icon/burger5.svg" alt=""></strong></a></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header__callback"><a id="number" href="tel:+74997297201">Звонок</a></div>
+    </div>
+</header>
+        <main class="page ">
+
+            <section class="page__contactUp contactUp">
+                <div class="contactUp__row _conteiner">
+                    <div class="contactUp__form">
+                        <div class="contactUp__title">Связаться сейчас</div>
+                        <form>
+                            <!-- Hidden Required Fields -->
+                            <input class="hid" type="hidden" name="project_name" value="Site Name">
+                            <input class="hid" type="hidden" name="admin_email" value="admin@mail.com">
+                            <input class="hid" type="hidden" name="form_subject" value="Form Subject">
+                            <!-- END Hidden Required Fields -->
+
+                            <input class="form__name" type="text" name="Name" placeholder="ФИО" required><br>
+                            <input class="form__email" type="text" name="E-mail" placeholder="E-mail" required><br>
+                            <input class="form__tel" type="text" name="Phone" placeholder=""><br>
+                            <button class="form__btn">Заказать звонок</button>
+
+                        </form>
+                    </div>
+                    <div class="contactUp__img"><img class="desk" src="img/contact/contactup1.svg" alt="">
+                        <img class="phonet" src="img/contact/contactup720.svg" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="page__contactmap contactmap">
+                <div class="contactmap__row _conteiner">
+                    <div class="contactmap__title"><img src="img/imgs.svg" alt="">Как нас найти</div>
+                    <div class="contactmap__backgroundmap">
+                        <div class="contactmap__buttons"><span>Москва</span> <strong>Рязань</strong></div>
+                        <div class="contactmap__map map1" id="map">
+                            <img class="mapimg" src="img/contact/image 26.jpg" alt="">
+                            <script type="text/javascript" charset="utf-8" async
+                                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A39138dcde049b854f378f3d1388b9a6d67d593535b9a7a634362056a7a7d365a&amp;width=1500&amp;height=531&amp;lang=ru_RU&amp;scroll=true"></script>
+
+                        </div>
+
+                        <div class="contactmap__map map2" id="map">
+                            <img class="mapimg" src="img/contact/image 26.jpg" alt="">
+                            <script type="text/javascript" charset="utf-8" async
+                                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A39138dcde049b854f378f3d1388b9a6d67d593535b9a7a634362056a7a7d365a&amp;width=900&amp;height=531&amp;lang=ru_RU&amp;scroll=true"></script>
+                        </div>
+
+                        <div class="contactmap__map map3" id="map">
+                            <img class="mapimg" src="img/contact/image 26.jpg" alt="">
+                            <script type="text/javascript" charset="utf-8" async
+                                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A39138dcde049b854f378f3d1388b9a6d67d593535b9a7a634362056a7a7d365a&amp;width=680&amp;height=334&amp;lang=ru_RU&amp;scroll=true"></script>
+                        </div>
+
+                        <div class="contactmap__map map4" id="map">
+                            <img class="mapimg" src="img/contact/image 26.jpg" alt="">
+                            <script type="text/javascript" charset="utf-8" async
+                                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A39138dcde049b854f378f3d1388b9a6d67d593535b9a7a634362056a7a7d365a&amp;width=250&amp;height=163&amp;lang=ru_RU&amp;scroll=true"></script>
+                        </div>
+
+                    </div>
+                    <div class="contactmap__office">
+                        <div class="contactmap__moskow">
+                            <div class="contactmap__town">Офис в москве</div>
+                            <a href="#" class="contactmap__tel">+7(999) 888-66-55</a>
+                            <div class="contactmap__email">top.one@gmail.com</div>
+                            <div class="contactmap__social">
+                                <a href="#"><img class="burger1" src="img/icon/burger1.svg" alt=""></a>
+                                <a href="#"><img class="burger2" src="img/icon/burger2.svg" alt=""></a>
+                                <a href="#"><img class="burger3" src="img/icon/burger3.svg" alt=""></a>
+                                <a href="#"><img class="burger4" src="img/icon/burger4.svg" alt=""></a>
+                                <a href="#"><img class="burger5" src="img/icon/burger5.svg" alt=""></a>
+                            </div>
+                        </div>
+
+                        <div class="contactmap__riazn">
+                            <div class="contactmap__town">Офис в рязани</div>
+                            <a href="#" class="contactmap__tel">+7(999) 888-66-55</a>
+                            <a href="#" class="contactmap__email">top.one@gmail.com</a>
+                            <div class="contactmap__social">
+                                <a href="#"><img class="burger1" src="img/icon/burger1.svg" alt=""></a>
+                                <a href="#"><img class="burger2" src="img/icon/burger2.svg" alt=""></a>
+                                <a href="#"><img class="burger3" src="img/icon/burger3.svg" alt=""></a>
+                                <a href="#"><img class="burger4" src="img/icon/burger4.svg" alt=""></a>
+                                <a href="#"><img class="burger5" src="img/icon/burger5.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="contactmap__slid">
+                            <img class="contactmap__slidimg" src="img/icon/Vector.svg" alt="">
+                            <span>Будем рады вам
+                                в любой точке
+                                земного шара!</span>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+    <div class="footer__row _conteiner">
+        <div class="footer__own"> <img src="img/logo.svg" alt="">
+            <p>Создание и продвижение сайтов </p>
+            <p>любой сложности</p>
+            <p>под ключ!</p>
+        </div>
+        <ul class="footer__nav">
+            <li><a href="#"><img src="img/icon/Vector.svg" alt=""> Главная</a></li>
+            <li><a href="#">Услуги</a></li>
+            <li><a href="#">Портфолио</a></li>
+            <li><a href="#">Прайс-лист</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+        <ul class="footer__service">
+            <li><a href="#">Создание сайтов </a></li>
+            <li><a href="#">Продвижение сайтов </a></li>
+            <li><a href="#">Доработка сайтов </a></li>
+            <li><a href="#">Поддержка сайтов </a></li>
+            <li><a href="#">Написание BOT </a></li>
+        </ul>
+        <div class="footer__up" id="up"><span>
+                <p></p>
+            </span></div>
+        <div class="footer__calback">
+            <div class="footer__town"><span>Москва</span><span>Рязань</span></div>
+            <a href="tel:+74997297201">
+                <p>+7 (499) 729-72-01</p>
+            </a>
+            <a class="footer__mail" href="mailto:top.one@gmail.com">top.one@gmail.com</a>
+            <div class="footer__social">
+                <img src="img/icon/twitter.svg" alt="">
+                <img src="img/icon/vk.svg" alt="">
+                <img src="img/icon/youtube.svg" alt="">
+                <img src="img/icon/ok.svg" alt="">
+            </div>
+        </div>
+    </div>
+</footer>
+    </div>
+    <section class="popups">
+        <div class="popup-portfolio">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <div class="popup__close"></div>
+                    <div class="popup__row">
+                        <div class="popup__images">
+                            <div class="popup__images-swiper">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide"><img src="img/MacBook.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/Лого.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/MacBook.png" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="popup__images-swiper-mini">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide"><img src="img/MacBook.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/Лого.png" alt=""></div>
+                                    <div class="swiper-slide"><img src="img/MacBook.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popup__sectionPopup sectionPopup">
+                            <div class="sectionPopup__title"><img src="img/imgs.svg" alt="">Интернет-магазин</div>
+                            <div class="sectionPopup__subtitle">Ультраскоростной интернет-магазин с эксклюзивным
+                                дизайном!
+                            </div>
+                            <div class="sectionPopup__text">Внимание, действует скидка! Базовая стоимость составляет 199
+                                000
+                                руб,
+                                вместо 249 000 руб!</div>
+                            <div class="sectionPopup__price">159000₽</div>
+                            <div class="sectionPopup__time">от <span>20</span> дней</div>
+                            <a href="#" class="sectionPopup__Btn">
+                                <p>заказать звонок</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popup__callback callbackPopup">
+            <div class="callbackPopup__body">
+                <div class="callbackPopup__content">
+                    <div class="callbackPopup__close"></div>
+                    <div class="callbackPopup__title"><img src="img/imgs.svg" alt="">Заполните форму</div>
+                    <div class="callbackPopup__subtitle">И наш специалист свяжется с вами в ближайшее время!</div>
+                    <form class="callbackPopup__form">
+                        <!-- Hidden Required Fields -->
+                        <input class="hid" type="hidden" name="project_name" value="Digital agency">
+                        <input class="hid" type="hidden" name="admin_email" value="admin@mail.com">
+                        <input class="hid" type="hidden" name="form_subject" value="Form Subject">
+                        <!-- END Hidden Required Fields -->
+
+                        <input class="callbackPopup__name" type="text" name="Name" placeholder="ФИО" required><br>
+                        <input class="callbackPopup__email" type="text" name="E-mail" placeholder="E-mail" required><br>
+                        <input class="callbackPopup__tel" type="text" name="Phone" placeholder=""><br>
+                        <button class="callbackPopup__btn">Заказать звонок</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="popupThanks">
+            <div class="popupThanks__body">
+                <div class="popupThanks__content">
+                    <img class="popupthank1" src="img/icon/popupthank1.svg" alt="">
+                    <img class="popupthank2" src="img/icon/popupthank2.svg" alt="">
+                    <img class="popupthank3" src="img/icon/popupthank3.svg" alt="">
+                    <img class="popupthank4" src="img/icon/popupthank4.svg" alt="">
+                    <div class="popupThanks__close"></div>
+                    <div class="popupThanks__title"><img src="img/imgs.svg" alt="">спасибо за заявку</div>
+                    <div class="popupThanks__subtitle">Ожидайте звонок от специалиста в ближайшее время</div>
+                    <div class="popupThanks__btn popupThanksclose">круто!</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/app.min.js"></script>
+</body>
+
+</html>
